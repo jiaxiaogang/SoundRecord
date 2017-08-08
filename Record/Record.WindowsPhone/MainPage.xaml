@@ -1,0 +1,139 @@
+﻿<Page
+    x:Class="Record.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Record"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <Storyboard x:Name="sb1">
+            <DoubleAnimation Storyboard.TargetName="scaleLogoBackOpacitySmall"
+                            Storyboard.TargetProperty="ScaleX"
+                            From="1" To="1.15"
+                             RepeatBehavior="Forever"
+                             AutoReverse="True"></DoubleAnimation>
+            <DoubleAnimation Storyboard.TargetName="scaleLogoBackOpacitySmall"
+                             Storyboard.TargetProperty="ScaleY"
+                             From="1" To="1.15"
+                             RepeatBehavior="Forever"
+                             AutoReverse="True"></DoubleAnimation>
+            <DoubleAnimation Storyboard.TargetName="scaleLogoBackOpacityBig"
+                            Storyboard.TargetProperty="ScaleX"
+                            From="1" To="1.35"
+                             RepeatBehavior="Forever"
+                             AutoReverse="True"
+                             BeginTime="00:00:00.200"></DoubleAnimation>
+            <DoubleAnimation Storyboard.TargetName="scaleLogoBackOpacityBig"
+                             Storyboard.TargetProperty="ScaleY"
+                             From="1" To="1.35"
+                             RepeatBehavior="Forever"
+                             AutoReverse="True"
+                             BeginTime="00:00:00.200"></DoubleAnimation>
+        </Storyboard>
+    </Page.Resources>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+
+            <Image Name="LogoBackOpacitySmall"
+                HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Visibility="Collapsed"
+               Grid.Row="1" Grid.Column="1"
+               Opacity="0.7"
+               Margin="10"
+               Source="ms-appx:///Images/VisBackGround.png" Tapped="LogoBack_Tapped">
+                <Image.RenderTransform>
+                    <ScaleTransform x:Name="scaleLogoBackOpacitySmall"
+                                CenterX="50"
+                                CenterY="50"></ScaleTransform>
+                </Image.RenderTransform>
+            </Image>
+            <Image Name="LogoBackOpacityBig"
+               Grid.Row="1" Grid.Column="1"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Visibility="Collapsed"
+               Opacity="0.5"
+               Margin="10"
+               Source="ms-appx:///Images/VisBackGround.png">
+                <Image.RenderTransform>
+                    <ScaleTransform x:Name="scaleLogoBackOpacityBig"
+                                CenterX="50"
+                                CenterY="50"></ScaleTransform>
+                </Image.RenderTransform>
+            </Image>
+
+            <Image Name="LogoBack" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Visibility="Collapsed"
+               Grid.Row="1" Grid.Column="1"
+               Opacity="0.4"
+               Margin="10"
+               Source="ms-appx:///Images/VisBackGround.png" Tapped="LogoBack_Tapped">
+            </Image>
+            <Image Name="Logo" Margin="10"
+               Grid.Row="1" Grid.Column="1"
+               Source="ms-appx:///Images/AppBarButton.png"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center" PointerEntered="Image_PointerEntered" PointerExited="Image_PointerExited" Tapped="Image_Tapped"/>
+
+            <Image Name="StopLogo"
+               Height="30"
+               Width="30"
+               Grid.Row="1" Grid.Column="1"
+               Opacity="0.7"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"
+               Visibility="Collapsed"
+               Source="ms-appx:///Images/Stop.png" Tapped="StopLogo_Tapped"></Image>
+        </Grid>
+
+
+        <ListView Name="listView" 
+                  Grid.Column="1"
+                  SelectionMode="Single"
+                 Opacity="1"
+                 Margin="10"
+                 Grid.RowSpan="2" ItemClick="listView_ItemClick">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" FontSize="25" Margin="3" Height="35"></TextBlock>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <MediaElement Grid.Row="1" 
+                          Grid.ColumnSpan="2"
+                          Name="micPlay"
+                          Margin="5"
+                          AreTransportControlsEnabled="True"
+                          AutoPlay="False"></MediaElement>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Name="test" Icon="Play" Label="测试录音" Click="test_Click"></AppBarButton>
+            <AppBarButton Name="stop" Icon="Stop" Label="停止录音" Click="stop_Click"></AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

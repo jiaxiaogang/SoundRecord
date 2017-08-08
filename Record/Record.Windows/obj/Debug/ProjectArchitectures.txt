@@ -1,0 +1,1 @@
+C:\Users\xiaogang\Desktop\录音机\Record\Record.Windows\Record.Windows.csproj;neutral

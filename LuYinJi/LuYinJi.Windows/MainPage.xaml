@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="LuYinJi.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LuYinJi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <AppBarButton Name="Start"
+                      Label="Start"
+                      Icon="Play"
+                      Grid.Row="1"
+                      Grid.Column="1" Click="Start_Click"></AppBarButton>
+        <AppBarButton Name="Stop" 
+                      Label="Stop"
+                      Icon="Stop"
+                      Grid.Row="2"
+                      Grid.Column="1" Click="Stop_Click"></AppBarButton>
+        <MediaElement Name="micPlay"></MediaElement>
+    </Grid>
+</Page>

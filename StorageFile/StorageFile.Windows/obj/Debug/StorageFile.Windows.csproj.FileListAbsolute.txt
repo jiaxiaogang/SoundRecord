@@ -1,0 +1,10 @@
+C:\Users\xiaogang\Desktop\录音机\StorageFile\StorageFile.Windows\obj\Debug\App.g.i.cs
+C:\Users\xiaogang\Desktop\录音机\StorageFile\StorageFile.Windows\obj\Debug\App.g.cs
+C:\Users\xiaogang\Desktop\录音机\StorageFile\StorageFile.Windows\obj\Debug\MainPage.g.i.cs
+C:\Users\xiaogang\Desktop\录音机\StorageFile\StorageFile.Windows\obj\Debug\MainPage.g.cs
+C:\Users\xiaogang\Desktop\录音机\StorageFile\StorageFile.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\xiaogang\Desktop\录音机\StorageFile\StorageFile.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\xiaogang\Desktop\录音机\StorageFile\StorageFile.Windows\obj\Debug\App.xaml
+C:\Users\xiaogang\Desktop\录音机\StorageFile\StorageFile.Windows\obj\Debug\MainPage.xaml
+C:\Users\xiaogang\Desktop\录音机\StorageFile\StorageFile.Windows\obj\Debug\App.xbf
+C:\Users\xiaogang\Desktop\录音机\StorageFile\StorageFile.Windows\obj\Debug\MainPage.xbf

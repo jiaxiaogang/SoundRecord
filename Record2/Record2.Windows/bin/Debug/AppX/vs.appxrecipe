@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ESEA-PC64BIT</Machine>
+    <WindowsUser>xiaogang</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ff438f06-3944-43ff-9ede-e5190c724293</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>6CF39E7F3C0F78499AA0099DD41D6EDC6968816CEF257936DAD539948AA9A2B5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ff438f06-3944-43ff-9ede-e5190c724293_1.0.0.0_neutral__g808re593xpg6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ff438f06-3944-43ff-9ede-e5190c724293_g808re593xpg6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ff438f06-3944-43ff-9ede-e5190c724293</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=xiaogang</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T02:41:48.391</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\bin\Debug\Record2.Windows.exe">
+      <PackagePath>Record2.Windows.exe</PackagePath>
+      <Modified>2014-06-02T02:45:02.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T13:10:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T13:10:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T13:10:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T13:10:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Shared\Images\AppBarButton.png">
+      <PackagePath>Images\AppBarButton.png</PackagePath>
+      <Modified>2014-05-27T10:59:35.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Shared\Images\Stop.png">
+      <PackagePath>Images\Stop.png</PackagePath>
+      <Modified>2014-05-28T01:42:57.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Shared\Images\VisBackGround.png">
+      <PackagePath>Images\VisBackGround.png</PackagePath>
+      <Modified>2014-05-27T11:28:47.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Shared\AudioFile\1.txt">
+      <PackagePath>AudioFile\1.txt</PackagePath>
+      <Modified>2014-05-31T14:35:52.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-06-01T01:17:53.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\bin\Debug\RecordLogo.xbf">
+      <PackagePath>RecordLogo.xbf</PackagePath>
+      <Modified>2014-06-02T02:45:00.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-06-01T16:41:50.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\bin\Debug\Record2.Windows.xr.xml">
+      <PackagePath>Record2.Windows.xr.xml</PackagePath>
+      <Modified>2014-06-01T16:26:43.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\Record2\Record2.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-06-02T02:41:48.176</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

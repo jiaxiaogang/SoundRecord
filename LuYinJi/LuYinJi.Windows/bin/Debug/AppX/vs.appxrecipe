@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ESEA-PC64BIT</Machine>
+    <WindowsUser>xiaogang</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b396c688-c31b-42ec-807e-7823c92503c8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>0603EB7285363275D328043D14C623A1C54BEE58806B8D428DADDDF135CAD50F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b396c688-c31b-42ec-807e-7823c92503c8_1.0.0.0_neutral__g808re593xpg6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b396c688-c31b-42ec-807e-7823c92503c8_g808re593xpg6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b396c688-c31b-42ec-807e-7823c92503c8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=xiaogang</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-27T09:53:47.409</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\bin\Debug\LuYinJi.Windows.exe">
+      <PackagePath>LuYinJi.Windows.exe</PackagePath>
+      <Modified>2014-05-27T09:52:36.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T13:10:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T13:10:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T13:10:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T13:10:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-05-27T08:33:39.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-05-27T09:18:00.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\bin\Debug\LuYinJi.Windows.xr.xml">
+      <PackagePath>LuYinJi.Windows.xr.xml</PackagePath>
+      <Modified>2014-05-27T09:17:59.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\录音机\LuYinJi\LuYinJi.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-05-27T09:53:47.061</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
